@@ -1,0 +1,30 @@
+* {
+  line-height: 1.5;
+  font-family: 'Roboto';
+  color:  #cacaca;
+  background-color: #08020d;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+}
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+}
+h1, h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media(max-width: 414px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
