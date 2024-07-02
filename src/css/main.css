@@ -1,0 +1,22 @@
+.main {
+  background: url("../images/banner.png") center center/cover no-repeat;
+  padding: 200px 0;
+}
+
+.banner__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner__wrapper h1, .banner__wrapper h2, .banner__wrapper p {
+  text-align: center;
+}
+.banner__wrapper p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.banner__text {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}/*# sourceMappingURL=main.css.map */
