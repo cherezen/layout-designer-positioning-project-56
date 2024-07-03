@@ -1,0 +1,28 @@
+.footer {
+  padding: 62px 0 49px;
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+.footer__wrapper {
+  margin-bottom: 72px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer h2 {
+  font-size: 18px;
+  line-height: 27px;
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+
+.column {
+  width: 270px;
+}
+.column__list {
+  margin-top: 15px;
+}
+.column__item {
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}/*# sourceMappingURL=footer.css.map */

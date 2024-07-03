@@ -1,0 +1,66 @@
+.footer {
+  padding: 62px 0 49px;
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  &__wrapper {
+    margin-bottom: 72px;
+    display: flex;
+    justify-content: space-between;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+    text-align-last: left;
+  }
+  &__menu {
+    margin-top: 40px;
+  }
+  &__menu-list {
+    display: flex;
+    column-gap: 16px;
+  }
+}
+.column {
+  width: 270px;
+  &__list {
+    margin-top: 15px;
+  }
+  &__item {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+  }
+}
+.icons {
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+}
+.icon {
+  &_1 {
+    width: 26px;
+    height: 17px;
+    background: url('../images/Google+.png') center center / cover no-repeat;
+  }
+  &_2 {
+    width: 22px;
+    height: 19px;
+    background: url('../images/Twitter.png') center center / cover no-repeat;
+  }
+}
+hr {
+  background-color: $grey;
+}
+
+@media(max-width: 1239px) {
+  .footer {
+    &__wrapper {
+      flex-direction: column;
+      row-gap: 30px;
+    }
+    &__menu-list {
+      flex-direction: column;
+      row-gap: 16px;
+    }
+  }
+}
