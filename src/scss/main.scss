@@ -50,16 +50,6 @@
       color: $white;
     }
   }
-  &__button {
-    padding: 20px 30px;
-    background-color: $green;
-    border: none;
-    border-radius: 5px;
-    color: $white;
-    text-transform: uppercase;
-    font-size: 13px;
-    cursor: pointer;
-  }
 }
 
 @media(max-width: 1239px) {

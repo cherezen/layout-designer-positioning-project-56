@@ -23,10 +23,34 @@ h2 {
   line-height: 57px;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.btn {
+  padding: 20px 30px;
+  background-color: #34C176;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  cursor: pointer;
+}
+.btn_outline {
+  border: 2px solid #fff;
+  background-color: transparent;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 1239px) {
@@ -189,16 +213,6 @@ h1, h2 {
 .form__input::placeholder {
   color: #fff;
 }
-.form__button {
-  padding: 20px 30px;
-  background-color: #34C176;
-  border: none;
-  border-radius: 5px;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 13px;
-  cursor: pointer;
-}
 
 @media (max-width: 1239px) {
   .page-description {
@@ -215,5 +229,93 @@ h1, h2 {
   }
   .form__input {
     width: 100%;
+  }
+}
+.page-pricing {
+  background: #08020D;
+  padding-top: 100px;
+}
+.page-pricing__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-pricing__wrapper {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.page-pricing__cards {
+  display: flex;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+.page-pricing__description {
+  text-align: center;
+  font-size: 16px;
+}
+
+.card {
+  width: 367px;
+  height: 615px;
+  padding: 24px 1.5rem 64px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+}
+.card__price {
+  margin: 200px 0 40px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.card__price-value {
+  font-size: 64px;
+  line-height: 1em;
+  color: #fff;
+}
+.card__currency {
+  font-size: 32px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.card__description {
+  text-align: center;
+  color: #fff;
+  font-size: 0.8rem;
+  margin-top: 64px;
+}
+.card__button {
+  width: 100%;
+}
+.card_1 {
+  background-image: url("../images/subscribe_1.png");
+}
+.card_2 {
+  background-image: url("../images/subscribe_2.png");
+}
+.card_3 {
+  background-image: url("../images/subscribe_3.png");
+}
+
+@media (max-width: 1239px) {
+  .page-pricing__cards {
+    margin-top: 49px;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .card {
+    padding-top: 16px;
+    width: 100%;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
   }
 }/*# sourceMappingURL=app.css.map */
