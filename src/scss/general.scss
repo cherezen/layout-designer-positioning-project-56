@@ -19,6 +19,7 @@ h1 {
 h2 {
   font-size: 38px;
   line-height: 57px;
+  text-align: center;
 }
 h1, h2, h3 {
   font-weight: 700;
@@ -40,7 +41,7 @@ h3 {
   font-size: 13px;
   cursor: pointer;
   &_outline {
-    border: 2px solid $white;
+    border: 1px solid $white;
     background-color: transparent;
     font-size: 16px;
     display: flex;
