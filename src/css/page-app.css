@@ -1,0 +1,14 @@
+.page-app__wrapper {
+  display: flex;
+}
+.page-app__column {
+  width: 600px;
+}
+.page-app__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.page-app__column:nth-child(2) img {
+  width: 333px;
+  height: 278px;
+}/*# sourceMappingURL=page-app.css.map */

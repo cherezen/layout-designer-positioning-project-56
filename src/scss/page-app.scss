@@ -1,0 +1,36 @@
+.page-app {
+  padding: 100px 0;
+  background-color: $black;
+  &__wrapper {
+    margin-top: 64px;
+    display: flex;
+  }
+  &__column {
+    width: 600px;
+    &:first-child {
+      display: flex;
+      flex-direction: column;
+      row-gap: 16px;
+    }
+    &:nth-child(2) {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 333px;
+        height: 278px;
+      }
+    }
+  }
+}
+@media(max-width: 1239px) {
+  .page-app {
+    &__wrapper {
+      margin-top: 48px;
+      flex-direction: column-reverse;
+      row-gap: 16px;
+    }
+    &__column {
+      width: 100%;
+    }
+  }
+}
