@@ -534,6 +534,10 @@ h3 {
   height: 55px;
 }
 
+h2 {
+  text-align: left;
+}
+
 h3 {
   font-size: 12.8px;
   line-height: 19.2px;
@@ -546,6 +550,45 @@ h3 {
   }
   .track {
     width: 100%;
+  }
+}
+.page-discography {
+  background-color: #08020D;
+  padding-top: 100px;
+}
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+  text-transform: none;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.discography {
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 25px;
+}
+.discography img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 18px;
+}
+.discography__year {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (max-width: 1239px) {
+  .discography img {
+    width: 137px;
+    height: 137px;
   }
 }
 .footer {
