@@ -1,6 +1,8 @@
 .main {
-  // height: 750px;
   background: url('../images/banner.png') center center / cover no-repeat;
+  &_artist {
+    background: url('../images/Morten\ Harket.png') center center / cover no-repeat;
+  }
 }
 .page-description {
   padding: 200px 0;
@@ -22,6 +24,19 @@
     display: flex;
     flex-direction: column;
     row-gap: 31px;
+  }
+  &__artist {
+    margin-top: 50px;
+  }
+  &__followers {
+    margin-top: 16px;
+    display: block;
+  }
+  &__buttons {
+    margin-top: 48px;
+    display: flex;
+    column-gap: 1.5rem;
+    margin-bottom: 23px;
   }
 }
 .form {
@@ -54,9 +69,16 @@
 
 @media(max-width: 1239px) {
   .page-description {
-    padding-top: 248px;
+    padding-top: 200px;
     &__text {
       row-gap: 16px;
+    }
+    &__artist {
+      margin-top: 25px;
+    }
+    &__buttons {
+      flex-direction: column;
+      row-gap: 24px;
     }
   }
   .form {

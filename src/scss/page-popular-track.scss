@@ -1,0 +1,37 @@
+.page-popular-track {
+  padding-top: 200px;
+  background-color: $black;
+}
+.tracks {
+  margin-top: 48px;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    justify-content: space-between;
+  }
+}
+.track {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  width: 551px;
+  img {
+    width: 55px;
+    height: 55px;
+  }
+}
+h3 {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: 700;
+}
+
+@media(max-width: 1239px) {
+  .page-popular-track {
+    padding-top: 100px;
+  }
+  .track {
+    width: 100%;
+  }
+}

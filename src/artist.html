@@ -3,10 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Портал "Music Box" webdevushka</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Артисты — Портал "Music Box" webdevushka</title>
+  <link rel="stylesheet" href="css/app.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="main main_artist">
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <nav class="header__nav">
+            <div class="header__logo logo">
+              <div class="logo__icon"></div>
+              <span class="logo__name">Music box</span>
+            </div>
+            <ul class="header__list">
+              <li class="header__item">Главная</li>
+              <li class="header__item">Каталог</li>
+              <li class="header__item">Исполнители</li>
+              <li class="header__item">Контакты</li>
+            </ul>
+          </nav>
+          <input class="header__input" type="text " placeholder="поиск...">
+        </div>
+      </div>
+    </header>
+    <section class="page-description page-description_artist">
+      <div class="container">
+        <h1 class="page-description__artist">Morten Harket</h1>
+        <p class="page-description__followers">24 875 поклонников</p>
+        <div class="page-description__buttons">
+          <a class="btn btn_blue btn_icon">
+            <div class="btn__icon btn__icon_play"></div>  
+            Микc
+          </a>
+          <a class="btn btn_orange btn_icon">
+            <div class="btn__icon btn__icon_heart"></div>  
+            В избранное
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="page-popular-track">
+      <div class="container">
+        <h2>Популярные треки</h2>
+        <div class="page-popular-track__tracks tracks">
+          <ul class="page-popular-track__tracks tracks__list">
+            <li class="tracks__item track">
+              <img src="images/Wild Seed.png" alt="Wild Seed">
+              <div>
+                <h3 class="track__name">Spanish Step</h3>
+                <p class="track__artist">Morten Harket</p>
+              </div>
+            </li>
+            <li class="tracks__item track">
+              <img src="images/Letter from Egypt.png" alt="Letter from Egypt">
+              <div>
+                <h3 class="track__name">With You - With Me</h3>
+                <p class="track__artist">Morten Harket</p>
+              </div>
+            </li>
+            <li class="tracks__item track">
+              <img src="images/Brother.png" alt="Brother">
+              <div>
+                <h3 class="track__name">Brother</h3>
+                <p class="track__artist">Morten Harket</p>
+              </div>
+            </li>
+            <li class="tracks__item track">
+              <img src="images/Wild Seed.png" alt="Wild Seed">
+              <div>
+                <h3 class="track__name">Brodsky Tune</h3>
+                <p class="track__artist">Morten Harket</p>
+              </div>
+            </li>
+            <li class="tracks__item track">
+              <img src="images/Letter from Egypt.png" alt="Morten Harket">
+              <div>
+                <h3 class="track__name">Darkspace</h3>
+                <p class="track__artist">Morten Harket</p>
+              </div>
+            </li>
+            <li class="tracks__item track">
+              <img src="images/Out of My Hands.png" alt="Morten Harket">
+              <div>
+                <h3 class="track__name">Burn Money Burn</h3>
+                <p class="track__artist">Morten Harket</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
 </body>
 </html>

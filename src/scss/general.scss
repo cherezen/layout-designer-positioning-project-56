@@ -56,6 +56,33 @@ h3 {
     background-color: $brown;
     text-transform: none;
   }
+  &_blue {
+    background-color: $violet;
+  }
+  &_icon {
+    width: 200px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    padding: 20px 30px;
+    font-size: 12.8px;
+    line-height: 19.2px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    .btn__icon {
+      width: 20px;
+      height: 20px;
+      filter: invert(1);
+      &_play {
+        background: url('../images/play-button.svg') center center / cover no-repeat;
+
+      }
+      &_heart {
+        background: url('../images/heart.svg') center center / cover no-repeat;
+      }
+    }
+  }
 }
 
 @media(max-width: 1239px) {
