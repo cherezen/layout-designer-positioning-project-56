@@ -1,1 +1,42 @@
-/*# sourceMappingURL=page-popular-track.css.map */
+.page-popular-track {
+  padding-top: 200px;
+}
+.page-popular-track h2 {
+  text-align: left;
+}
+.page-popular-track h3 {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: bold;
+}
+
+.tracks {
+  margin-top: 48px;
+}
+.tracks__list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  justify-content: space-between;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  width: 551px;
+}
+.track img {
+  width: 55px;
+  height: 55px;
+}
+
+@media (max-width: 1239px) {
+  .page-popular-track {
+    padding-top: 100px;
+  }
+  .track {
+    width: 100%;
+  }
+}/*# sourceMappingURL=page-popular-track.css.map */

@@ -1,6 +1,9 @@
 .page-similar {
   padding-top: 100px;
-  background-color: $black;
+  h3 {
+    text-align: center;
+    margin-top: 1px;
+  }
 }
 .similar {
   margin-top: 48px;
@@ -26,10 +29,6 @@
     font-size: 16px;
     line-height: 24px;
   }
-}
-h3 {
-  text-align: center;
-  margin-top: 1px;
 }
 
 @media(max-width: 1239px) {

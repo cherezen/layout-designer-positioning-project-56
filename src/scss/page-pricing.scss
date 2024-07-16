@@ -1,5 +1,4 @@
 .page-pricing {
-    background: $black;
     padding-top: 100px;
     &__content {
       display: flex;
@@ -7,7 +6,7 @@
       align-items: center;
     }
     &__wrapper {
-      margin-top: 45px;
+      margin-top: 48px;
       display: flex;
       flex-direction: column;
       gap: 40px;
@@ -23,7 +22,6 @@
   }
   .card {
     width: 367px;
-    height: 615px;
     padding: 24px 1.5rem 64px;
     border-radius: 1rem;
     display: flex;
@@ -51,11 +49,13 @@
     &__description {
       text-align: center;
       color: $white;
-      font-size: 0.8rem;
+      font-size: 12.8px;
+      line-height: 19.2px;
       margin-top: 64px;
     }
     &__button {
       width: 100%;
+      line-height: 24px;
     }
     &_1 {
       background-image: url('../images/subscribe_1.png');
@@ -72,18 +72,19 @@
   @media(max-width: 1239px) {
     .page-pricing {
       &__cards {
-        margin-top: 49px;
+        // margin-top: 49px;
         flex-direction: column;
         row-gap: 50px; 
+      }
+      h3 {
+        font-weight: bold;;
+        font-size: 16px;
+        line-height: 24px;
       }
     }
     .card {
       padding-top: 16px;
       width: 100%;
     }
-    h3 {
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 24px;
-    }
+
   }

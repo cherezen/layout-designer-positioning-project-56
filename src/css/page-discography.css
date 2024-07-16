@@ -1,0 +1,43 @@
+.page-discography {
+  padding-top: 100px;
+}
+.page-discography h2 {
+  text-align: left;
+}
+.page-discography h3 {
+  text-transform: none;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.discography {
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 25px;
+}
+.discography__item {
+  width: 250px;
+}
+.discography img {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-bottom: 18px;
+}
+.discography__year {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (max-width: 1239px) {
+  .discography__item {
+    width: 138px;
+  }
+  .discography img {
+    width: 137px;
+    height: 137px;
+  }
+}/*# sourceMappingURL=page-discography.css.map */

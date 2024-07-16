@@ -6,11 +6,13 @@
   font-family: 'Roboto';
   color:  #cacaca;
 }
+body {
+  background-color: $black;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
   height: auto;
-  // background-color: #08020d;
 }
 h1 {
   font-size: 60px;
@@ -22,7 +24,7 @@ h2 {
   text-align: center;
 }
 h1, h2, h3 {
-  font-weight: 700;
+  font-weight: bold;
   text-transform: uppercase;
   color: $white;
 }
@@ -40,6 +42,7 @@ h3 {
   color: $white;
   text-transform: uppercase;
   font-size: 13px;
+  line-height: 15px;
   cursor: pointer;
   &_outline {
     border: 1px solid $white;
@@ -50,8 +53,9 @@ h3 {
   }
   &_orange {
     border-radius: 32px;
-    padding: 16px 40px;
+    padding: 17px 40px;
     font-size: 12.8px;
+    line-height: 19px;
     width: fit-content;
     background-color: $brown;
     text-transform: none;

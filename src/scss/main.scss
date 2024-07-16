@@ -1,7 +1,10 @@
 .main {
-  background: url('../images/banner.png') center center / cover no-repeat;
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   &_artist {
-    background: url('../images/Morten\ Harket.png') center center / cover no-repeat;
+    background-image: url('../images/Morten\ Harket.png');
   }
 }
 .page-description {
@@ -60,7 +63,7 @@
     padding-left: 20px;
     font-size: 14px;
     color: $white;
-    font-weight: 700;
+    font-weight: bold;;
     &::placeholder {
       color: $white;
     }
@@ -69,7 +72,7 @@
 
 @media(max-width: 1239px) {
   .page-description {
-    padding-top: 200px;
+    margin-top: 48px;
     &__text {
       row-gap: 16px;
     }

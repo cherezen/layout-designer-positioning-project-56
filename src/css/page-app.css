@@ -1,8 +1,17 @@
+.page-app {
+  padding: 100px 0;
+}
 .page-app__wrapper {
+  margin-top: 48px;
   display: flex;
 }
 .page-app__column {
   width: 600px;
+}
+.page-app__column:first-child {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
 }
 .page-app__column:nth-child(2) {
   display: flex;
@@ -11,4 +20,15 @@
 .page-app__column:nth-child(2) img {
   width: 333px;
   height: 278px;
+}
+
+@media (max-width: 1239px) {
+  .page-app__wrapper {
+    margin-top: 48px;
+    flex-direction: column-reverse;
+    row-gap: 16px;
+  }
+  .page-app__column {
+    width: 100%;
+  }
 }/*# sourceMappingURL=page-app.css.map */
