@@ -63,4 +63,12 @@ hr {
       row-gap: 16px;
     }
   }
+  .column {
+    &__list {
+      margin-top: 16px;
+    }
+  }
+  .icons {
+    margin-top: 20px;
+  }
 }

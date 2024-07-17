@@ -72,7 +72,9 @@
 
 @media(max-width: 1239px) {
   .page-description {
-    margin-top: 48px;
+    &__wrapper {
+      margin-top: 48px;
+    }
     &__text {
       row-gap: 16px;
     }

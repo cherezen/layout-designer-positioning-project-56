@@ -12,8 +12,9 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 1240px;
   margin: 0 auto;
+  padding: 0 20px;
   height: auto;
 }
 
@@ -280,7 +281,7 @@ h3 {
 }
 
 @media (max-width: 1239px) {
-  .page-description {
+  .page-description__wrapper {
     margin-top: 48px;
   }
   .page-description__text {
@@ -713,5 +714,11 @@ hr {
   .footer__menu-list {
     flex-direction: column;
     row-gap: 16px;
+  }
+  .column__list {
+    margin-top: 16px;
+  }
+  .icons {
+    margin-top: 20px;
   }
 }/*# sourceMappingURL=app.css.map */
