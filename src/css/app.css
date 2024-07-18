@@ -212,7 +212,7 @@ h3 {
 }
 
 .page-description {
-  padding: 200px 0;
+  padding: 200px 20px;
 }
 .page-description__wrapper {
   display: flex;
@@ -489,7 +489,7 @@ h3 {
   }
 }
 .page-app {
-  padding: 100px 0;
+  padding: 100px 20px;
 }
 .page-app__wrapper {
   margin-top: 48px;
@@ -574,6 +574,7 @@ h3 {
   text-transform: none;
   font-size: 18px;
   line-height: 27px;
+  font-weight: 700;
 }
 
 .discography {
