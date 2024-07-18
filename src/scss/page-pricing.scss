@@ -81,7 +81,7 @@
   }
 }
 
-@media(min-width: 414px) and (max-width: 1239px) {
+@media(min-width >= 414px) and (max-width <= 1239px) {
   .page-pricing {
     &__cards {
       flex-direction: column;
@@ -94,7 +94,7 @@
       line-height: 24px;
     }
   }
-  
+
   .card {
     padding-top: 16px;
     width: 100%;

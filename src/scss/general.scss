@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   color:  #cacaca;
 }
 
@@ -104,7 +104,7 @@ h3 {
   }
 }
 
-@media(min-width: 414px) and (max-width: 1239px) {
+@media(min-width >= 414px) and (max-width <= 1239px) {
   h1 {
     font-size: 30px;
     line-height: 45px;

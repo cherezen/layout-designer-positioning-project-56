@@ -35,11 +35,11 @@
   }
 }
 
-@media(min-width: 414px) and (max-width: 1239px) {
+@media(min-width >= 414px) and (max-width <= 1239px) {
   .page-popular-track {
     padding-top: 100px;
   }
-  
+
   .track {
     width: 100%;
   }

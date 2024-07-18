@@ -19,8 +19,7 @@
   margin-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 50px;
-  row-gap: 25px;
+  gap: 25px 50px;
   
   &__item {
     display: flex;
@@ -43,7 +42,7 @@
   }
 }
 
-@media(min-width: 414px) and (max-width: 1239px) {
+@media(min-width >= 414px) and (max-width <= 1239px) {
   .similar {
     &__item {
       width: 137px;

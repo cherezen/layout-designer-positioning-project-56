@@ -87,7 +87,7 @@
   }
 }
 
-@media(min-width: 414px) and (max-width: 1239px) {
+@media(min-width >= 414px) and (max-width <= 1239px) {
   .page-description {
     padding: 200px 0 201px;
     

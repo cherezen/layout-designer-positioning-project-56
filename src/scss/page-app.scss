@@ -29,7 +29,7 @@
   }
 }
 
-@media(min-width: 414px) and (max-width: 1239px) {
+@media(min-width >= 414px) and (max-width <= 1239px) {
   .page-app {
     &__wrapper {
       margin-top: 48px;

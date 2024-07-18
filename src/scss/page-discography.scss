@@ -17,8 +17,7 @@
   margin-top: 48px;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 50px;
-  row-gap: 25px;
+  gap: 25px 50px;
   
   &__item {
     width: 250px;
@@ -37,7 +36,7 @@
   }
 }
 
-@media(min-width: 414px) and (max-width: 1239px) {
+@media(min-width >= 414px) and (max-width <= 1239px) {
   .discography {
     &__item {
       width: 138px;
