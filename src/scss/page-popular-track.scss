@@ -1,16 +1,20 @@
 .page-popular-track {
   padding-top: 100px;
+  
   h2 {
     text-align: left;
   }
+  
   h3 {
     font-size: 12.8px;
     line-height: 19.2px;
     font-weight: bold;;
   }
 }
+
 .tracks {
   margin-top: 48px;
+  
   &__list {
     display: flex;
     flex-wrap: wrap;
@@ -18,22 +22,24 @@
     justify-content: space-between;
   }
 }
+
 .track {
   display: flex;
   align-items: center;
   column-gap: 15px;
   width: 551px;
+  
   img {
     width: 55px;
     height: 55px;
   }
 }
 
-
-@media(max-width: 1239px) {
+@media(min-width: 414px) and (max-width: 1239px) {
   .page-popular-track {
     padding-top: 100px;
   }
+  
   .track {
     width: 100%;
   }

@@ -1,21 +1,26 @@
 .page-app {
   padding: 100px 20px 0;
   margin-bottom: 100px;
+  
   &__wrapper {
     margin-top: 48px;
     display: flex;
   }
+  
   &__column {
     width: 600px;
+    
     &:first-child {
       margin-top: 16px;
       display: flex;
       flex-direction: column;
       row-gap: 16px;
     }
+    
     &:nth-child(2) {
       display: flex;
       justify-content: center;
+      
       img {
         width: 333px;
         height: 278px;
@@ -23,12 +28,14 @@
     }
   }
 }
-@media(max-width: 1239px) {
+
+@media(min-width: 414px) and (max-width: 1239px) {
   .page-app {
     &__wrapper {
       margin-top: 48px;
       flex-direction: column-reverse;
     }
+    
     &__column {
       width: 100%;
     }

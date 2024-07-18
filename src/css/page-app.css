@@ -24,7 +24,7 @@
   height: 278px;
 }
 
-@media (max-width: 1239px) {
+@media (min-width: 414px) and (max-width: 1239px) {
   .page-app__wrapper {
     margin-top: 48px;
     flex-direction: column-reverse;

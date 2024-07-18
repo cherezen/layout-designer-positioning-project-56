@@ -1,8 +1,10 @@
 .page-discography {
   padding-top: 100px;
+  
   h2 {
     text-align: left;
   }
+  
   h3 {
     text-transform: none;
     font-size: 18px;
@@ -10,32 +12,37 @@
     font-weight: 700;
   }
 }
+
 .discography {
   margin-top: 48px;
   display: flex;
   flex-wrap: wrap;
   column-gap: 50px;
   row-gap: 25px;
+  
   &__item {
     width: 250px;
   }
+  
   img {
     width: 250px;
     height: 250px;
     display: block;
     margin-bottom: 18px;
   }
+  
   &__year {
     font-size: 16px;
     line-height: 24px;
   }
 }
 
-@media(max-width: 1239px) {
+@media(min-width: 414px) and (max-width: 1239px) {
   .discography {
     &__item {
       width: 138px;
     }
+    
     img {
       width: 137px;
       height: 137px;

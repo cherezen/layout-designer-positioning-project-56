@@ -1,8 +1,10 @@
 .page-similar {
   padding-top: 100px;
+  
   h2 {
     text-align: left;
   }
+  
   h3 {
     text-align: center;
     margin-top: 1px;
@@ -11,6 +13,7 @@
     text-transform: none;
   }
 }
+
 .similar {
   margin-top: 48px;
   margin-bottom: 100px;
@@ -18,11 +21,13 @@
   flex-wrap: wrap;
   column-gap: 50px;
   row-gap: 25px;
+  
   &__item {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  
   img {
     width: 250px;
     height: 250px;
@@ -30,6 +35,7 @@
     border-radius: 50%;
     margin-bottom: 18px;
   }
+  
   &__followers {
     text-align: center;
     font-size: 16px;
@@ -37,11 +43,12 @@
   }
 }
 
-@media(max-width: 1239px) {
+@media(min-width: 414px) and (max-width: 1239px) {
   .similar {
     &__item {
       width: 137px;
     }
+    
     img {
       width: 137px;
       height: 137px;
