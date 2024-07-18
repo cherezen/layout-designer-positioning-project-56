@@ -1,11 +1,15 @@
 .page-similar {
   padding-top: 100px;
 }
+.page-similar h2 {
+  text-align: left;
+}
 .page-similar h3 {
   text-align: center;
   margin-top: 1px;
   font-size: 18px;
   line-height: 27px;
+  text-transform: none;
 }
 
 .similar {

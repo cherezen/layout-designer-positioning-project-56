@@ -179,12 +179,12 @@ h3 {
   .header__wrapper {
     flex-direction: column;
     align-items: flex-start;
-    row-gap: 17px;
+    row-gap: 18px;
   }
   .header__nav {
     flex-direction: column;
     align-items: flex-start;
-    row-gap: 18px;
+    row-gap: 17px;
   }
   .header__list {
     row-gap: 3px;
@@ -284,9 +284,12 @@ h3 {
 }
 
 @media (max-width: 1239px) {
+  .page-description {
+    padding: 200px 0 201px;
+  }
   .page-description__wrapper {
     margin-top: 48px;
-    gap: 18px;
+    gap: 16px;
   }
   .page-description__text {
     row-gap: 16px;
@@ -489,7 +492,8 @@ h3 {
   }
 }
 .page-app {
-  padding: 100px 20px;
+  padding: 100px 20px 0;
+  margin-bottom: 100px;
 }
 .page-app__wrapper {
   margin-top: 48px;
@@ -523,7 +527,7 @@ h3 {
   }
 }
 .page-popular-track {
-  padding-top: 200px;
+  padding-top: 100px;
 }
 .page-popular-track h2 {
   text-align: left;
@@ -611,11 +615,15 @@ h3 {
 .page-similar {
   padding-top: 100px;
 }
+.page-similar h2 {
+  text-align: left;
+}
 .page-similar h3 {
   text-align: center;
   margin-top: 1px;
   font-size: 18px;
   line-height: 27px;
+  text-transform: none;
 }
 
 .similar {
