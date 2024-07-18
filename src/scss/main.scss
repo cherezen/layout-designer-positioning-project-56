@@ -68,12 +68,16 @@
       color: $white;
     }
   }
+  .btn {
+    padding: 21px;
+  }
 }
 
 @media(max-width: 1239px) {
   .page-description {
     &__wrapper {
       margin-top: 48px;
+      gap: 18px;
     }
     &__text {
       row-gap: 16px;
