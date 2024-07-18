@@ -8,6 +8,7 @@
   &__column {
     width: 600px;
     &:first-child {
+      margin-top: 16px;
       display: flex;
       flex-direction: column;
       row-gap: 16px;
@@ -27,7 +28,6 @@
     &__wrapper {
       margin-top: 48px;
       flex-direction: column-reverse;
-      row-gap: 16px;
     }
     &__column {
       width: 100%;

@@ -503,6 +503,7 @@ h3 {
   width: 600px;
 }
 .page-app__column:first-child {
+  margin-top: 16px;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
@@ -520,7 +521,6 @@ h3 {
   .page-app__wrapper {
     margin-top: 48px;
     flex-direction: column-reverse;
-    row-gap: 16px;
   }
   .page-app__column {
     width: 100%;
